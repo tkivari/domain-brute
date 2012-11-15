@@ -1,6 +1,7 @@
 <?php
 
 
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/siesta/restclient.php');
     require_once('../domain-brute.php');
     require_once('../namecheap.php');
     

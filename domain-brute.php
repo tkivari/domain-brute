@@ -13,7 +13,6 @@
         );
         
         private $permutations = array();
-        private $perms = array();
         private $domains = array();
         private $domain_list;
         
@@ -24,7 +23,6 @@
         
         private function compute() {
 
-            $perms = array();
             for ($i=$this->config['min_length']; $i<=$this->config['max_length']; ++$i) {
                 $this->calculate_permutations($i,0);
             }

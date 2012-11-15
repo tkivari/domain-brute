@@ -2,8 +2,6 @@
 
     namespace DomainBrute;
     
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/siesta/restclient.php');
-    
     class namecheap {
         
         private $config = array(
