@@ -1,4 +1,4 @@
 domain-brute
 ============
 
-brute force domain name search utility
+A brute force domain name availability checker.  Requires Siesta REST client from https://www.github.com/tkivari/Siesta
