@@ -49,7 +49,6 @@
                 $doc = new \SimpleXMLElement($xml);
                 
                 $this->response = $doc->CommandResponse;
-                print_r($this->response); exit();
                 $this->parse_result();
                 
             }
