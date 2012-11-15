@@ -20,7 +20,7 @@
     $api_config = array(
         'ApiUser' => 'tkivari',
         'UserName' => 'tkivari',
-        'ApiKey' => 'a247985caf434f1da8f12bce44526900',
+        'ApiKey' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
         'Command' => 'namecheap.domains.check',
         'DomainList'=> $domains,
         'ClientIp'  => $_SERVER['REMOTE_ADDR']
