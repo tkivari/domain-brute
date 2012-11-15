@@ -7,7 +7,7 @@
     $db_config = array(
         'extensions' => array('org')
     );
-    $domaincheck = new \DomainBrute\domain_generator();
+    $domaincheck = new \DomainBrute\domain_generator($db_config);
     
     $config = array(
         'host' => 'https://api.sandbox.namecheap.com/xml.response'
@@ -20,7 +20,7 @@
     $api_config = array(
         'ApiUser' => 'tkivari',
         'UserName' => 'tkivari',
-        'ApiKey' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+        'ApiKey' => 'XXXXXXXX',
         'Command' => 'namecheap.domains.check',
         'DomainList'=> $domains,
         'ClientIp'  => $_SERVER['REMOTE_ADDR']
